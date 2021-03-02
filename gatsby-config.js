@@ -1,4 +1,7 @@
 module.exports = {
+  flags: {
+    DEV_SSR: false,
+  },
   siteMetadata: {
     title: "Gatsby Testing",
   },
@@ -24,6 +27,14 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-plugin-typescript",
+      options: {
+        isTSX: true,
+        jsxPragma: "jsx",
+        allExtensions: true,
+      },
     },
   ],
 };

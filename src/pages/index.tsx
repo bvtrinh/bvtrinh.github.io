@@ -1,6 +1,6 @@
 import * as React from "react";
 import { CustomNavbar } from "../components/CustomNavbar";
-import { MainSection } from "../components/MainSection";
+import { Header } from "../components/Header";
 import { Section } from "../components/Section";
 
 const AboutInfo = (
@@ -19,15 +19,15 @@ const AboutInfo = (
 
 const IndexPage = () => {
   return (
-    <div>
+    <>
       <CustomNavbar />
-      <MainSection />
+      <Header />
       <main className="container">
         <Section id="about" title="About" content={AboutInfo} />
         <Section id="projects" title="Projects" content={AboutInfo} />
-        <footer />
       </main>
-    </div>
+      <footer />
+    </>
   );
 };
 

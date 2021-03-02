@@ -22,10 +22,6 @@ a {
   background-color: #ffffff00 !important;
 }
 
-html:not([data-scroll="0"]) .navbar-style {
-  background-color: #000000 !important;
-}
-
 .bg-image {
   border-radius: 0rem;
   height: 100%;
