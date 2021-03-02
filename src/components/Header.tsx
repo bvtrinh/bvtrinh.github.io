@@ -24,7 +24,7 @@ export const Header = () => {
           </div>
         </div>
       </Jumbotron>
-      <div className="gradient-img-footer" />
+      <div className="gradient-img-follow" />
     </>
   );
 };

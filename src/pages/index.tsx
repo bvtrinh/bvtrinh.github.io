@@ -13,7 +13,7 @@ const AboutInfo = (
     <br />
     <br />
     In my spare time I like to longboard, play video games and watch the Raptors
-    lose.
+    semi-occasionally win.
   </p>
 );
 
