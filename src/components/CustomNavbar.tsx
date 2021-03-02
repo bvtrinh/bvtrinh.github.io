@@ -33,7 +33,7 @@ export const CustomNavbar = () => {
       fixed="top"
     >
       <div className="container">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <Image
             alt="logo image"
             src={Icon}

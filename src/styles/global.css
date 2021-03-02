@@ -9,6 +9,12 @@ a {
   text-decoration: none;
 }
 
+.gatsby-link {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
 .navbar-extra {
   transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out,
     padding-bottom 0.3s;
@@ -39,9 +45,9 @@ a {
   text-align: center;
 }
 
-.gradient-img-footer {
+.gradient-img-follow {
   background: linear-gradient(180deg, #5c5c5c 0%, rgba(196, 196, 196, 0) 100%);
-  height: 5vh;
+  height: 2vh;
 }
 
 .social-icons {
