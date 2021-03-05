@@ -1,6 +1,6 @@
 # ✨ Personal Portfolio
 
-My personal portfolio containing a small description about me and showcases my projects.
+My personal portfolio containing a small description about me and a showcase my projects.
 
 ## 🔨 Built with
 
