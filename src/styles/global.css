@@ -1,10 +1,10 @@
 body,
 html {
   height: 100%;
+  color: black;
 }
 
 a {
-  color: white;
   outline: none;
   text-decoration: none;
 }
@@ -73,6 +73,11 @@ a {
 
 .skill-logo {
   margin-right: 0.5rem;
+}
+
+.more-link {
+  color: grey;
+  font-size: 0.8rem;
 }
 
 footer {

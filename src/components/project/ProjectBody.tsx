@@ -25,6 +25,9 @@ export const ProjectBody = ({ about, skills, description, link }: ProjectBodyPro
       <SkillList skills={skills} />
       <p>{about}</p>
       <p>{description}</p>
+      <a className="more-link" target="_blank" href={link}>
+        github
+      </a>
     </div>
   );
 };
