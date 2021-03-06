@@ -47,7 +47,7 @@ export const CustomNavbar = () => {
           <Nav>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="/static/TrinhResume.pdf">Resume</Nav.Link>
+            <Nav.Link href="/TrinhResume.pdf">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </div>
