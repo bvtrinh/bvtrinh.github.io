@@ -1,4 +1,4 @@
-import python from "../images/logos/typescript.svg";
+import python from "../images/logos/python.svg";
 import typescript from "../images/logos/typescript.svg";
 import cplusplus from "../images/logos/c++.svg";
 import nodejs from "../images/logos/nodejs.svg";
@@ -17,6 +17,9 @@ import docker from "../images/logos/docker.svg";
 import gcp from "../images/logos/gcp.svg";
 import heroku from "../images/logos/heroku.svg";
 import github_actions from "../images/logos/github_actions.svg";
+import socketio from "../images/logos/socketio.svg";
+import spotify from "../images/logos/spotify.svg";
+import rpi from "../images/logos/rpi.svg";
 
 export const SKILL_LOGOS: { [key: string]: any } = {
   python,
@@ -38,4 +41,7 @@ export const SKILL_LOGOS: { [key: string]: any } = {
   gcp,
   heroku,
   github_actions,
+  socketio,
+  spotify,
+  rpi,
 };
