@@ -21,8 +21,7 @@ export const CustomNavbar = () => {
     };
   }, [scrollPosition]);
 
-  const navbarColor =
-    scrollPosition >= SCROLL_LIMIT ? "black-navbar" : "transparent-navbar";
+  const navbarColor = scrollPosition >= SCROLL_LIMIT ? "black-navbar" : "transparent-navbar";
 
   return (
     <Navbar
@@ -48,7 +47,7 @@ export const CustomNavbar = () => {
           <Nav>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
+            <Nav.Link href="/static/TrinhResume.pdf">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </div>

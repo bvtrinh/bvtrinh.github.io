@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import { ProjectProps } from "../../static/projects";
+import { ProjectProps } from "../../info/projects";
 import { ProjectHeader } from "./ProjectHeader";
 import { ProjectBody } from "./ProjectBody";
 

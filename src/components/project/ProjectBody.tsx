@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
-import { SKILL_LOGOS } from "../../static/skillLogos";
+import { SKILL_LOGOS } from "../../info/skillLogos";
 
 export interface ProjectBodyProps {
   skills: string[];
