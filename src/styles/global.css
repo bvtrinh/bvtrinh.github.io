@@ -5,6 +5,7 @@ html {
 }
 
 a {
+  color: white;
   outline: none;
   text-decoration: none;
 }
@@ -78,6 +79,7 @@ a {
 .more-link {
   color: grey;
   font-size: 0.8rem;
+  margin-right: 1rem;
 }
 
 footer {

@@ -13,7 +13,7 @@ const ProjectElements = () => {
           skills={proj.skills}
           about={proj.about}
           description={proj.description}
-          link={proj.link}
+          links={proj.links}
         />
       ))}
     </>

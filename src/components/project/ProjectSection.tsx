@@ -4,12 +4,19 @@ import { ProjectProps } from "../../static/projects";
 import { ProjectHeader } from "./ProjectHeader";
 import { ProjectBody } from "./ProjectBody";
 
-export const ProjectSection = ({ title, date, skills, about, description, link }: ProjectProps) => {
+export const ProjectSection = ({
+  title,
+  date,
+  skills,
+  about,
+  description,
+  links,
+}: ProjectProps) => {
   return (
     <Accordion>
       <ProjectHeader title={title} date={date} eventKey="0" />
       <Accordion.Collapse eventKey="0">
-        <ProjectBody skills={skills} about={about} description={description} link={link} />
+        <ProjectBody skills={skills} about={about} description={description} links={links} />
       </Accordion.Collapse>
     </Accordion>
   );

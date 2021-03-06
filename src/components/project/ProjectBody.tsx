@@ -6,7 +6,7 @@ export interface ProjectBodyProps {
   skills: string[];
   about: string;
   description: string;
-  link?: string;
+  links?: { [key: string]: string };
 }
 
 const SkillList = ({ skills }: { skills: string[] }) => {
@@ -19,15 +19,21 @@ const SkillList = ({ skills }: { skills: string[] }) => {
   );
 };
 
-export const ProjectBody = ({ about, skills, description, link }: ProjectBodyProps) => {
+export const ProjectBody = ({ about, skills, description, links }: ProjectBodyProps) => {
+  let projectLinks;
+  if (links) {
+    projectLinks = Object.keys(links).map((linkTitle) => (
+      <a key={linkTitle} className="more-link" target="_blank" href={links[linkTitle]}>
+        {linkTitle}
+      </a>
+    ));
+  }
   return (
     <div className="project-body">
       <SkillList skills={skills} />
       <p>{about}</p>
       <p>{description}</p>
-      <a className="more-link" target="_blank" href={link}>
-        github
-      </a>
+      <p>{projectLinks}</p>
     </div>
   );
 };
