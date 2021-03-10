@@ -5,7 +5,10 @@
   "description": "",
   "author": "Tyler Trinh",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "react",
+    "typescript",
+    "portfolio"
   ],
   "scripts": {
     "develop": "gatsby develop",

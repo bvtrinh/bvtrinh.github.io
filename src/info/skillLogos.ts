@@ -20,6 +20,8 @@ import github_actions from "../images/logos/github_actions.svg";
 import socketio from "../images/logos/socketio.svg";
 import spotify from "../images/logos/spotify.svg";
 import rpi from "../images/logos/rpi.svg";
+import expressjs from "../images/logos/expressjs.svg";
+import nginx from "../images/logos/nginx.svg";
 
 export const SKILL_LOGOS: { [key: string]: any } = {
   python,
@@ -44,4 +46,6 @@ export const SKILL_LOGOS: { [key: string]: any } = {
   socketio,
   spotify,
   rpi,
+  expressjs,
+  nginx,
 };
