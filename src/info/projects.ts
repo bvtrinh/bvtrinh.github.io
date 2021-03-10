@@ -64,7 +64,7 @@ export const PROJECTS: ProjectProps[] = [
   {
     title: "Tuning",
     date: "Dec 2019",
-    skills: ["nodejs", "bootstrap", "html", "css", "heroku", "postgres", "socketio", "spotify"],
+    skills: ["nodejs", "postgres", "bootstrap", "html", "css", "heroku", "socketio", "spotify"],
     about: "A song trivia web app with leaderboards and multiplayer.",
     description:
       "This was an app for one of course projects. It was good experience working in a team environment and going through an Agile-like process. One of my favourite projects that I have made.",

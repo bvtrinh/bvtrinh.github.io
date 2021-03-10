@@ -2,6 +2,7 @@ body,
 html {
   height: 100%;
   color: black;
+  font-family: "Nunito";
 }
 
 a {
@@ -40,8 +41,16 @@ a {
 
 .intro-title {
   color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
   height: 100%;
   text-align: center;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-weight: 600;
 }
 
 .gradient-img-follow {
