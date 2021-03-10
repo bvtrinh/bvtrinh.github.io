@@ -1,4 +1,5 @@
 import * as React from "react";
+import { SEO } from "../components/SEO";
 import { CustomNavbar } from "../components/CustomNavbar";
 import { Header } from "../components/Header";
 import { SectionTitle } from "../components/SectionTitle";
@@ -7,6 +8,7 @@ import { Link } from "gatsby";
 const NotFoundPage = () => {
   return (
     <>
+      <SEO />
       <CustomNavbar />
       <Header />
       <main className="container">
