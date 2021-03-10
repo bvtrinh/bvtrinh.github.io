@@ -1,4 +1,5 @@
 import * as React from "react";
+import { SEO } from "../components/SEO";
 import { CustomNavbar } from "../components/CustomNavbar";
 import { Header } from "../components/Header";
 import { Section } from "../components/Section";
@@ -20,6 +21,7 @@ const AboutInfo = () => (
 const IndexPage = () => {
   return (
     <>
+      <SEO />
       <CustomNavbar />
       <Header />
       <main className="container">
