@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Icon from "../images/icon.png";
+import Logo from "../images/logo.png";
 import Image from "react-bootstrap/Image";
 
 const SCROLL_LIMIT = 250;
@@ -35,7 +35,7 @@ export const CustomNavbar = () => {
         <Navbar.Brand href="/">
           <Image
             alt="logo image"
-            src={Icon}
+            src={Logo}
             width="30"
             height="30"
             className="d-inline-block align-top"
