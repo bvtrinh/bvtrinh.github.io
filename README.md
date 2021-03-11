@@ -1,5 +1,7 @@
 # ✨ Personal Portfolio
 
+![pipeline-status](https://github.com/bvtrinh/bvtrinh.github.io/actions/workflows/deploy.yml/badge.svg)
+
 My personal portfolio containing a small description about me and a showcase my projects.
 
 ## 🔨 Built with
