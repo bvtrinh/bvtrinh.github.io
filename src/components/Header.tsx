@@ -15,10 +15,10 @@ export const Header = () => {
             <a href="mailto:tylervtrinh@gmail.com">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
-            <a href="https://www.linkedin.com/in/bvtrinh/">
+            <a target="_blank" href="https://www.linkedin.com/in/bvtrinh/">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://github.com/bvtrinh">
+            <a target="_blank" href="https://github.com/bvtrinh">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
