@@ -27,7 +27,7 @@ const IndexPage = () => {
       <SEO />
       <CustomNavbar />
       <Header />
-      <main className="container">
+      <main className="   container">
         <Section id="about" title="About" content={AboutInfo} />
         <Section id="projects" title="Projects" content={ProjectList} />
       </main>
