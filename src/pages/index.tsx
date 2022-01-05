@@ -8,9 +8,9 @@ import { ProjectList } from "../components/project/ProjectList";
 const AboutInfo = () => (
   <p>
     Hi there! I’m a computer science student studying at Simon Fraser University. I’m currently on
-    co-op working as a Junior Web Application Developer at{" "}
-    <a target="_blank" href="https://www.sfu.ca/">
-      SFU
+    co-op working as an Agile Developer at{" "}
+    <a target="_blank" href="https://www.sap.com/canada/">
+      SAP
     </a>
     . I’m a soon to be graduate and hoping to look for work that is interesting and engaging. My
     main interests are in web development, data science and machine learning applications.
