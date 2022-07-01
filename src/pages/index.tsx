@@ -12,8 +12,8 @@ const AboutInfo = () => (
     <a target="_blank" href="https://www.sap.com/canada/">
       SAP
     </a>
-    . I’m a soon to be graduate and hoping to look for work that is interesting and engaging. My
-    main interests are in web development, data science and machine learning applications.
+    . I’m a soon to be graduate and I love work that both is interesting and engaging. My main
+    interests are in web development, data science and machine learning applications.
     <br />
     <br />
     In my spare time I like to longboard, play video games and watch the Raptors semi-occasionally
