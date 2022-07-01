@@ -7,8 +7,8 @@ import { ProjectList } from "../components/project/ProjectList";
 
 const AboutInfo = () => (
   <p>
-    Hi there! I’m a computer science student studying at Simon Fraser University. I’m currently on
-    co-op working as an Agile Developer at{" "}
+    Hi there! I’m a computer science student studying at Simon Fraser University. I’m currently a
+    full-time Software Developer at{" "}
     <a target="_blank" href="https://www.sap.com/canada/">
       SAP
     </a>
