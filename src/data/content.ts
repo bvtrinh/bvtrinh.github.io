@@ -11,19 +11,19 @@ export const personalInfo = {
 export const aboutSections = [
   {
     title: "Current Focus",
-    color: "emerald",
+    borderColor: "border-emerald-500",
     content:
       "Working as a Software Developer at SAP after completing my Computer Science degree at Simon Fraser University. I specialize in building web applications with modern frameworks, focusing on scalability and maintainability.",
   },
   {
     title: "Technical Interests",
-    color: "blue",
+    borderColor: "border-blue-500",
     content:
       "My primary interests lie in full-stack web development, data science applications, and machine learning. I enjoy exploring how to combine these domains to create intelligent, data-driven user experiences.",
   },
   {
     title: "Beyond Code",
-    color: "purple",
+    borderColor: "border-purple-500",
     content:
       "When I'm not coding, you'll find me playing badminton or training for my marathon. I believe in maintaining work-life balance and finding inspiration outside of the screen.",
   },

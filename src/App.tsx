@@ -67,7 +67,7 @@ function App() {
 
           <div className="space-y-8 max-w-4xl">
             {aboutSections.map((section, index) => (
-              <div key={index} className={`border-l-4 border-${section.color}-500 pl-6`}>
+              <div key={index} className={`border-l-4 ${section.borderColor} pl-6`}>
                 <h3 className="text-xl font-bold mb-3">{section.title}</h3>
                 <p className="text-zinc-400 leading-relaxed">{section.content}</p>
               </div>
