@@ -14,7 +14,7 @@ function App() {
             <img
               src={personalInfo.logoPath}
               alt={`${personalInfo.name} Logo`}
-              className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover"
+              className="w-16 h-16 md:w-20 md:h-20"
             />
             <h1 className="text-6xl md:text-7xl font-bold text-white bg-clip-text text-transparent">
               {personalInfo.name}

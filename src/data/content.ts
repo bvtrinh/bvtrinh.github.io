@@ -19,7 +19,7 @@ export const aboutSections = [
     title: "Technical Interests",
     borderColor: "border-blue-500",
     content:
-      "My primary interests lie in full-stack web development, data science applications, and machine learning. I enjoy exploring how to combine these domains to create intelligent, data-driven user experiences.",
+      "My primary interests lie in full-stack web development, data science applications, and AI. I enjoy exploring how to combine these domains to create intelligent, data-driven user experiences.",
   },
   {
     title: "Beyond Code",
