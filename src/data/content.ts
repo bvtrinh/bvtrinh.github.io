@@ -13,19 +13,19 @@ export const aboutSections = [
     title: "Current Focus",
     borderColor: "border-emerald-500",
     content:
-      "Working as a Software Developer at SAP after completing my Computer Science degree at Simon Fraser University. I specialize in building web applications with modern frameworks, focusing on scalability and maintainability.",
+      "Software Developer at SAP specializing in backend development and microservices architecture. My work centers on building resilient services with clear separation of concerns, optimized performance under load, and maintainable codebases that teams can evolve confidently.",
   },
   {
     title: "Technical Interests",
     borderColor: "border-blue-500",
     content:
-      "My primary interests lie in full-stack web development, data science applications, and AI. I enjoy exploring how to combine these domains to create intelligent, data-driven user experiences.",
+      "My primary interests lie in full-stack web development and AI. I'm constantly experimenting with new AI tools to see how they can sharpen my development skills and streamline my workflow. My aim is to combine these interests into something practical: building applications that make a real difference in how people work and live.",
   },
   {
     title: "Beyond Code",
     borderColor: "border-purple-500",
     content:
-      "When I'm not coding, you'll find me playing badminton or training for my marathon. I believe in maintaining work-life balance and finding inspiration outside of the screen.",
+      "Outside of work, you'll find me on the badminton court, training for my next marathon, or exploring a new corner of the world. I believe in being more than just a developer. Staying active, exploring new places, and pursuing diverse interests makes me better at what I do and keeps life interesting.",
   },
 ];
 
