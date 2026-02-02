@@ -41,21 +41,21 @@ export const projects = [
     featured: true,
   },
   {
+    id: "open-budget",
+    title: "Open Budget",
+    subtitle: "Local-first budgeting tool",
+    description:
+      "A budgeting app to help track expenses and budgets with local-first architecture. Also was coded in entirely with Claude Code.",
+    techStack: ["React", "Vite", "IndexedDB", "SQLite", "Claude Code"],
+    codeLink: "https://ob.tylertrinh.ca",
+    featured: false,
+  },
+  {
     id: "fabcycle",
     title: "FABCYCLE",
     subtitle: "Fabric entry tool for Shopify store",
     description: "Web app to help Shopify store owners manage fabric inventory and orders.",
     techStack: ["React", "Chakra UI", "Node.js", "SQLite", "k6"],
-    featured: false,
-  },
-  {
-    id: "sparklist",
-    title: "Sparklist",
-    subtitle: "Wishlist sharing platform",
-    description:
-      "The main idea was derived from myself not knowing what to gifts to get for birthdays and Christmas. Some of the features are inspired by pcpartpicker.com.",
-    techStack: ["Express", "MongoDB", "Node.js", "k8s"],
-    codeLink: "https://github.com/bvtrinh/sparklist",
     featured: false,
   },
   {
